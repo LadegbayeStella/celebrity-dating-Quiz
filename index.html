@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Celebrity Dating Quiz</title>
+</head>
+
+<body id="stella" style="background-image: url(./img/acc4.jpg);">
+  <div class="container">
+    <h1 class="text-warning text-center pt-3" id="st">Celebrity Dating Quiz</h1>
+
+    <form id="inputtedNameForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <div class="col-sm-3">
+          <input type="text" id="name" class="form-control">
+        </div>
+      </div>
+      <button class="btn btn-danger mt-3">Start</button>
+    </form>
+
+    <div class="quiz">
+      <h1 class="output-name"></h1>
+
+      <div class="qustions">
+        <form id="quizQuestion">
+          <div class="question-one">
+            <h1>1. What's your gender?</h1>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="Male">Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="Female">Female</label>
+            <br>
+            <h4 id="genderButton" class="text-success">Next</h4>
+          </div>
+          <div class="question-two">
+            <h1>2. What's your age?</h1>
+            <label for="Age">Enter your age</label>
+            <div class="col-sm-3">
+              <input type="text" id="age" class="form-control">
+            </div>
+            <h4 id="genderButton2" class="text-success">Next</h4>
+          </div>
+          <div class="question-three">
+            <h1>3. What's your hobby</h1>
+            <label for="Hobby">Enter your hobby</label>
+            <div class="col-sm-3">
+              <input type="text" id="age" class="form-control">
+            </div>
+            <h4 id="genderButton3" class="text-success">Next</h4>
+          </div>
+          <div class="question-four">
+            <h1>4. What's your Profession?</h1>
+            <label for="profession">Enter your profession</label>
+            <div class="col-sm-3">
+              <input type="text" id="age" class="form-control">
+            </div>
+            <h4 id="genderButton4" class="text-success">Next</h4>
+          </div>
+
+          <div class="question-five">
+            <h1>4. What's your Nationality?</h1>
+            <label for="Nationality">Enter your Nationality</label>
+            <div class="col-sm-3">
+              <input type="text" id="nation" class="form-control">
+            </div>
+            <h4 id="genderButton5" class="text-success">Next</h4>
+          </div>
+
+
+          <div class="question-six">
+            <h1>4. What's your expectation on this site?</h1>
+            <label for="Nationality">Enter your Expectation</label>
+            <div class="col-sm-3">
+              <input type="text" id="nation" class="form-control">
+            </div>
+            <h4 id="genderButton6" class="text-success">Next</h4>
+          </div>
+
+      </div>
+
+      </form>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

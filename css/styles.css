@@ -1,0 +1,62 @@
+.question-one {
+  display: none;
+}
+
+.question-two {
+  display: none;
+}
+
+.question-three {
+  display: none;
+}
+
+ .question-four{
+  display: none;
+}
+
+.question-five{
+  display: none;
+}
+.question-six{
+  display: none;
+}
+
+#genderButton:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#genderButton2:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#genderButton3:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#genderButton4:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#genderButton5:hover {
+  color: red;
+  cursor: pointer;
+}
+ #genderButton6:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+
+#stella{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
