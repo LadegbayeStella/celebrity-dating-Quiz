@@ -50,13 +50,51 @@
   cursor: pointer;
 }
 
-
-
-
 #stella{
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.celebrity-kelvin {
+  display: none;
+}
 
+.celebrity-tyler {
+  display: none;
+}
 
+.celebrity-peter {
+  display: none;
+}
+
+.celebrity-rihanna {
+  display: none;
+}
+
+.celebrity-selena {
+  display: none;
+}
+
+.celebrity-zendaya {
+  display: none;
+}
+
+.celebrity-Rihanna {
+  display: none;
+}
+
+.celebrity-tyler {
+  display: none;
+}
+
+.celebrity-selena {
+  display: none;
+}
+
+.celebrity-peter {
+  display: none;
+}
+
+.celebrity-Kelvin {
+  display: none;
+}
